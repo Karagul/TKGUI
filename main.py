@@ -1,8 +1,5 @@
-
-
 import Tkinter as Tk
 import layout.editor as editor
-
 
 if __name__ == '__main__':
     
@@ -11,6 +8,5 @@ if __name__ == '__main__':
     app = editor.Screen(root, width=1200, height=800)
 
     app.pack()
-
 
     root.mainloop()
